@@ -19,4 +19,8 @@ jobs:
         pip install -r requirements.txt
 
     - name: Build
-      run: python main.py
+      run: 
+        python main.py &    
+        sleep 10            
+        curl http://localhost:5000    # Test if Flask app is running
+
