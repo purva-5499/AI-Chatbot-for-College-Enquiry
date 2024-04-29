@@ -24,3 +24,22 @@ jobs:
         sleep 10            
         curl http://localhost:5000    # Test if Flask app is running
 
+      - name: Install ngrok
+      run: |
+        wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+        unzip ngrok-stable-linux-amd64.zip
+
+    - name: Start ngrok
+      run: |
+        ./ngrok http 5000 &
+        sleep 10
+
+    - name: Get ngrok URL
+      id: ngrok
+      run: |
+        curl -s http://localhost:4040/api/tunnels | jq -r '.tunnels[0].public_url'
+
+    - name: Print ngrok URL
+      run: |
+        echo "Ngrok URL: ${{ steps.ngrok.outputs.stdout }}"
+
