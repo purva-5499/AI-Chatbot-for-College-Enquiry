@@ -24,7 +24,7 @@ jobs:
         sleep 10            
         curl http://localhost:5000    # Test if Flask app is running
 
-      - name: Install ngrok
+    - name: Install ngrok
       run: |
         wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
         unzip ngrok-stable-linux-amd64.zip
