@@ -1,0 +1,217 @@
+
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello hey","hii hi good day","Greetings"],
+  "responses": ["Hello!","Hey!","What can I do for you?","Happy to see you, how can I assist you?","Hello how can I help you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is name","name","what name","who are you","what should I call you"],
+  "responses": ["You can call me BotBuddy","I'm BotBuddy","I'm BotBuddy your virtual assistant"]
+  },
+
+  {
+    "tag": "courses",
+    "patterns": ["what courses are available", "how many courses details are there in this college","course information"],
+    "responses": ["Undergraduate Programmes:<br>Commerce Aided:<br>- B.Com<br>Self-Finance:<br>- BAF - B.Com (Accounting & Finance)<br>- BBI - B.Com ( Banking and Insurance)<br>- BFM - B.Com (Financial Markets)<br>- BMS – Bachelor of Management Studies<br>- BBA (Bachelor of Business Administration)<br>Arts<br>- BAMMC – Bachelor of Mass Media and Communication<br>Science Self –Finance:<br>- B.Sc. (Computer Science)<br>- B.Sc. (Information Technology)<br>- B.Sc. (Data Science)<br>- BCA<br>Post-graduate Programmes:<br>Commerce<br>- M.Com (Advanced Accountancy) – Aided<br>- M.Com (Business Management)<br>- M.Com (Banking and Finance)<br>Science<br>- M.Sc. (Information Technology)<br>- M.Sc. (Finance)<br>Ph.D.<br>- Ph.D. in Business Economics"]
+  },  
+  
+   {"tag": "courseDuration",
+  "patterns": ["how long will  BSc CS or BSc IT or Bcom or BCA or BBI or BAF or BMS or BSc DS or BBA or BAF course", "how long will it take to complete BSc CS or BSc IT or Bcom or BCA or BBI or BAF or BMS or BSc DS or BBA or BAF course","Duration of course","course duration"],
+  "responses": ["Our college offers 3 year long course."]
+  },
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the college"],
+  "responses": ["Mulund Vanijya Mahavidyalaya Marg Mulund West, Mumbai 400080"]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","how many semesters one should study in a year","how many semesters till course complete"],
+  "responses": ["There are two semesters in a year. Total six semesters foe three years."]
+  },
+
+  {"tag": "semDuration",
+  "patterns": ["how many months are there in a semester","how long will  a single semester","semester duration","sem duration"],
+  "responses": ["A single semester will be around 6 months."]
+  },
+
+{
+    "tag": "studentRequirements",
+    "patterns": ["what are the student requirement for admission", "entry requirements", "admission requirements", "addmission process"],
+    "responses": ["To apply for admission, please visit <a href='https://enrollonline.co.in/Registration/Apply/MCC'><span style='color: red'>this link</span></a>."]
+  },
+
+  {"tag": "classes",
+  "patterns": ["how many classes will  there in a day","how long are the classes? lectures duration"],
+  "responses": ["There may be two or three classes per day. Each class will be of 100 minutes."]
+  },
+
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like?","What is the exam pattern","papers","exam marks"],
+  "responses": ["Each semester comprises two internal exams each of 20 marks and one final exam 0f 60 marks."]
+  },
+
+  {"tag": "hours",
+  "patterns": ["what are hours","when are  guys open","what  hours of operation","when I can visit college"],
+  "responses": ["You can message us here at any hours. But our college premises will be open from 10:00 am to 5:00 pm only."]
+  },
+
+  {
+    "tag": "events",
+    "patterns": ["will there  any extracurricular activities?", "does the college  any fun programs?", "events in college", "campus events"],
+    "responses": [
+      "Certainly! Here are some upcoming events held in the college:<br>1. Spectrum event - A vibrant cultural fest that celebrates diversity and talent. <a href='https://mccmulund.ac.in/newweb/page.php?id=40'><span style='color: red'>Spectrum</span></a><br>2. MathWonder - An exciting math competition that challenges students to solve intriguing problems. <a href='https://mccmulund.ac.in/newweb/page.php?id=57'><span style='color: red'>MathWonder</span></a><br>3. TECH-A-THON BY TECHNOBEAT - A hackathon organized by Technobeat to showcase innovative tech solutions. <a href='https://mccmulund.ac.in/newweb/page.php?id=58'><span style='color: red'>TECH-A-THON BY TECHNOBEAT</span></a>"
+    ]
+  },  
+
+  {
+    "tag": "notices",
+    "patterns": ["show me recent notices", "notices information", "latest updates","when wil collge start"],
+    "responses": ["Sure! You can find recent notices and updates on our college's <a href='https://mccmulund.ac.in/newweb/noticeBoard.php?t=1'><span style='color: red'>notice board</span></a>."]
+  },  
+  {
+    "tag": "exam_timetable",
+    "patterns": ["When is the exam?", "Do you have the exam timetable?", "I need to know when my test is.", "When will the exam timetable be available?", "Can you tell me about the exam schedule?", "Is there any update on the test schedule?"],
+    "responses": ["The exam timetable will be updated on the <a href='https://mccmulund.ac.in/newweb/noticeBoard.php?t=1'><span style='color: red'>notice board</span></a>. Please check it regularly."]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures ","is library available","can student use library","is canteen available in college"],
+  "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library access, classes with AC, canteen and student service for any students queries."]
+  },
+
+  {
+    "tag": "fee",
+    "patterns": ["how much is the college fee", "what is the fee structure"],
+    "responses": ["Here is the fee structure for undergraduate programs:<br><br>Commerce Aided:<br>- B.Com: Aided (Approx. ₹&nbsp;30,000 per year)<br><br>Self-Finance:<br>- BAF - B.Com (Accounting & Finance) (Approx. ₹&nbsp;40,000 per year)<br>- BBI - B.Com (Banking and Insurance) (Approx. ₹&nbsp;40,000 per year)<br>- BFM - B.Com (Financial Markets) (Approx. ₹&nbsp;40,000 per year)<br>- BMS – Bachelor of Management Studies (Approx. ₹&nbsp;50,000 per year)<br>- BBA (Bachelor of Business Administration) (Approx. ₹&nbsp;50,000 per year)<br><br>Arts:<br>- BAMMC – Bachelor of Mass Media and Communication (Approx. ₹&nbsp;35,000 per year)<br><br>Science Self-Finance:<br>- B.Sc. (Computer Science) (Approx. ₹&nbsp;45,000 per year)<br>- B.Sc. (Information Technology) (Approx. ₹&nbsp;45,000 per year)<br>- B.Sc. (Data Science) (Approx. ₹&nbsp;45,000 per year)<br>- BCA (Approx. ₹&nbsp;42,000 per year)"]
+  },  
+  
+  {
+    "tag": "facultyInfo",
+    "patterns": [" me about the faculty", "faculty information","faculty quaification","faculty details","faculty info","teachers in college", "teachers from","teachers of"],
+    "responses": ["Sure! You can find detailed information about the faculty on our college's website. Please visit the <a href='https://mccmulund.ac.in/newweb/index.php#!'><span style='color: red'>faculty page</span></a> and navigate to the Departments tab for more information."]
+  },
+
+  {
+    "tag": "gallery",
+    "patterns": ["college photos", "photo gallery", "college gallery", "pictures of college"],
+    "responses": ["Explore our college's vibrant atmosphere and events through our photo gallery! Visit the <a href='https://mccmulund.ac.in/newweb/gallery.php'><span style='color: red'>gallery page</span></a> to view stunning images."]
+  },  
+
+  {
+    "tag": "scholarshipInfo",
+    "patterns": [" me about scholarships", "scholarship information", "scholarship info", "freeship info"],
+    "responses": ["Certainly! You can find detailed information about scholarships provided by our college in the <a href='https://mccmulund.ac.in/newweb/files/uploads/Scholarship2023-24.pdf'><span style='color: red'>scholarship pdf.</span></a>."]
+  },    
+
+  {"tag": "goodbye",
+  "patterns": ["see you later","I am leaving","Have a good day","bye"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {
+    "tag": "alumni",
+    "patterns": ["alumni network", "alumni association", "alumni events", "alumni information"],
+    "responses": ["Our college has a vibrant alumni network. You can find more information and updates about our alumni association on the college's <a href='https://mccmulund.ac.in/newweb/page.php?id=61'><span style='color: red'>alumini page</span></a>."]
+  },
+  {
+    "tag": "sfc_science",
+    "patterns": ["What are the admission requirements for the BCA","admission requirements for CS (computer science), IT (inforamation technology), BCA (bachelor of computer application),DS (Data Science)","SSf (science self-finance) courses admission requirements","What are the admission requirements for CS?",
+    "What are the admission requirements for IT?",
+    "What are the admission requirements for BCA?",
+    "What are the admission requirements for DS?",
+    "Admission requirements for CS, IT, BCA, DS",
+    "Admission requirements for computer science courses"],
+    "responses": ["The admission requirements for the Science SFC programs are as follows: <br>1. Minimum 60% aggregate marks in 10+2 or equivalent.<br>  2. Mathematics as a compulsory subject in 12th grade. <br><br>For more details, you can contact us via:<br>Email: <a href='mailto:Mccmulund@Gmail.Com'><span style='color: red'>Mccmulund@Gmail.Com</span></a><br>Phone: 8097345311 / 8097876255 / 9082101135 / 9082164576 <br>Or visit the college between 10:00 AM to 5:00 PM."]
+  },
+  {
+    "tag": "sfc_commerce",
+    "patterns": [
+        "What are the admission requirements for BAF?",
+        "What are the admission requirements for BBI?",
+        "What are the admission requirements for BFM?",
+        "What are the admission requirements for BMS?",
+        "What are the admission requirements for BBA?",
+        "Admission requirements for BAF, BBI, BFM, BMS, BBA",
+        "Admission requirements for Commerce Self-Finance courses"
+    ],
+    "responses": ["The admission requirements for the Commerce Self-Finance courses are as follows:<br>For BAF (B.Com Accounting & Finance):<br>- Minimum 60% aggregate marks in 10+2 or equivalent.<br>- Proficiency in English.<br><br>For BBI (B.Com Banking and Insurance):<br>- Minimum 60% aggregate marks in 10+2 or equivalent.<br>- Proficiency in English.<br><br>For BFM (B.Com Financial Markets):<br>- Minimum 60% aggregate marks in 10+2 or equivalent.<br>- Proficiency in English.<br><br>For BMS (Bachelor of Management Studies):<br>- Minimum 60% aggregate marks in 10+2 or equivalent.<br>- Proficiency in English.<br><br>For BBA (Bachelor of Business Administration):<br>- Minimum 60% aggregate marks in 10+2 or equivalent.<br>- Proficiency in English.<br><br>For more details, you can contact us via:<br>Email: <a href='mailto:Mccmulund@Gmail.Com'><span style='color: red'>Mccmulund@Gmail.Com</span></a><br>Phone: 8097345311 / 8097876255 / 9082101135 / 9082164576<br>Or visit the college between 10:00 AM to 5:00 PM."]
+},
+{
+  "tag": "sfc_arts",
+  "patterns": [
+      "What are the admission requirements for BAMMC?",
+      "Admission requirements for BAMMC under Arts"
+  ],
+  "responses": ["The admission requirements for BAMMC (Bachelor of Mass Media and Communication) under Arts are as follows:<br>- Minimum 60% aggregate marks in 10+2 or equivalent.<br>- Proficiency in English.<br>- Some colleges may require a qualifying entrance exam.<br>For more details, you can contact us via:<br>Email: <a href='mailto:Mccmulund@Gmail.Com'><span style='color: red'>Mccmulund@Gmail.Com</span></a><br>Phone: 8097345311 / 8097876255 / 9082101135 / 9082164576<br>Or visit the college between 10:00 AM to 5:00 PM."]
+},
+{
+  "tag": "hod",
+  "patterns": [
+      "Who is the head of department of bcom bsc IT CS DS BCA Bcom bbi bfm baf bms bba bammc ",
+      "Who is the HOD of bsc IT CS DS BCA Bcom bbi bfm baf bms bba bammc",
+      "Head of Department for B.Sc. (Computer Science) B.Sc. (Information Technology) B.Sc. (Data Science) BCA Bcom BAF B.Com (Accounting Finance) BBI - B.Com ( Banking and Insurance) BFM - B.Com (Financial Markets)BMS – Bachelor of Management Studies BBA (Bachelor of Business Administration)",
+      "hod for [department]"
+  ],
+  "responses": [
+      "You can find detailed information about the HOD on our college's website. Please visit the <a href='https://mccmulund.ac.in/newweb/index.php#!'><span style='color: red'>faculty page</span></a> and navigate to the Departments tab for more information."
+  ]
+},
+{
+  "tag": "principal",
+  "patterns": [
+      "Who is the principal of the college?",
+      "Who is the vice principal of the college?",
+      "Principal of the college",
+      "Vice principal of the college"
+  ],
+  "responses": [
+      "Principal: Dr. Sonali Pednekar<br>Vice Principal: Dr. Shivaji Pawar"
+  ]
+},
+{
+  "tag": "contact",
+  "patterns": [
+      "How can I contact the college?",
+      "What is the contact information of the college?",
+      "College contact details", "When we can visit college"
+  ],
+  "responses": ["You can contact the college via:<br>Phone: 8097345311 / 8097876255 / 9082101135 / 9082164576<br>Email: <a href='mailto:Mccmulund@Gmail.Com'><span style='color: red'>Mccmulund@Gmail.Com</span></a><br>Or visit the college at:<br>Mulund Vanijya Mahavidyalaya Marg,<br>Mulund West, Mumbai 400080,<br>From 10:00 AM to 5:00 PM."]
+},
+{
+  "tag": "invalid",
+  "patterns": ["","vsghsgv","qhsgq","nn","vswv","ygjygjgj","ghjj"],
+  "responses": ["Invalid response. can you Please ask a query related to college."]
+},
+{
+  "tag": "lc",
+  "patterns": ["What documents are required for the Leaving Certificate (LC)?", "List of documents for LC", "LC documents","want to apply for lc"],
+  "responses": ["The following documents are typically required for the Leaving Certificate (LC):<br>1. Application form for LC<br>2. Marksheet of class 10 (X)<br>3. Birth Certificate<br>4. Transfer Certificate (TC)<br>5. Conduct Certificate<br>6. Caste Certificate (if applicable)<br>7. Passport-sized photographs<br><br>For more details, you can contact us via:<br>Email: <a href='mailto:Mccmulund@Gmail.Com'><span style='color:red;'>Mccmulund@Gmail.Com</span></a><br>Phone: <span style='color:red;'>8097345311 / 8097876255 / 9082101135 / 9082164576</span><br>Or visit the college between 10:00 AM to 5:00 PM."]
+},
+{
+  "tag": "duplicate_id",
+  "patterns": ["What should I do if I encounter a duplicate ID?", "Duplicate ID issue", "Duplicate ID problem","I lost my id"],
+  "responses": ["If you encounter a duplicate ID issue, please contact the college administration immediately. They will guide you on the necessary steps to resolve the problem."]
+},
+{
+  "tag": "concession",
+  "patterns": ["How can I apply for concession?", "Concession application process", "Procedure for concession"],
+  "responses": ["To apply for concession, follow these steps:<br>1. Obtain the concession application form from the college office.<br>2. Fill out the form completely and accurately.<br>3. Attach all required documents, including proof of eligibility for concession.<br>4. Submit the completed form and documents to the college administration.<br>5. Your application will be reviewed, and you will be notified of the decision.<br><br>For more details, you can contact us via:<br>Email: <a href='mailto:Mccmulund@Gmail.Com'><span style='color:red;' id='email_concession'>Mccmulund@Gmail.Com</span></a><br>Phone: 8097345311 / 8097876255 / 9082101135 / 9082164576<br>Or visit the college between 10:00 AM to 5:00 PM."]
+},
+{
+  "tag":"okay",
+  "patterns":["ok okay ","sure"],
+  "responses":["Great! If you have any more questions, feel free to ask."]
+},
+{
+  "tag": "college_timing",
+  "patterns": ["What are the college timings?", "College time", "When does the college open?", "When does the college close?"],
+  "responses": ["The college is open from Monday to Saturday, from 10:00 AM to 5:00 PM."]
+},
+  {"tag": "thanks",
+    "patterns": ["Thank you", "That is helpful","thanks", "Thanks for helping me","great"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
